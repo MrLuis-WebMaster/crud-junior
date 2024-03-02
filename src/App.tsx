@@ -174,7 +174,7 @@ function App() {
                       {cell.column.columnDef.header === 'Completed' ? (
                         <button
                           onClick={() => toggleTodoStatus(row.original.id, row.original.completed)}
-                          className={`bg-${row.original.completed ? 'green' : 'yellow'}-500 text-white font-bold bg-opacity-80 text-xs p-1 rounded`}
+                          className={`bg-${row.original.completed ? 'blue' : 'yellow'}-500 text-white font-bold bg-opacity-80 text-xs p-1 rounded`}
                         >
                           {row.original.completed ? 'Finished' : 'Pending'}
                         </button>
